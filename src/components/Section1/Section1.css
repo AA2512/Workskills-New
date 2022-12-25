@@ -1,0 +1,32 @@
+.section1-text {
+  color: white;
+  width: 50vw;
+  padding-left: 20vw;
+  padding-top: 30vh;
+  padding-bottom: 10vh;
+  font-family: "Inter Display", sans-serif;
+  font-size: 3.5em;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  max-width: 24em;
+}
+.text-sec {
+  /* padding-right: 50vh; */
+}
+@media only screen and (max-width: 768px) {
+  .section1-text {
+    color: white;
+    width: 100%;
+    padding: 50vh 3vw 10vh;
+    font-family: "Inter Display", sans-serif;
+    font-size: 2.5em;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    max-width: 24em;
+  }
+  .text-sec {
+    padding-right: 0;
+  }
+}
